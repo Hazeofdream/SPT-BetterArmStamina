@@ -88,7 +88,7 @@
 </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="copy /Y &quot;$(TargetPath)&quot; &quot;C:\Users\Haze_of_dream\AppData\Roaming\SPT 4\BepInEx\plugins\" />
+    <Exec Command="copy /Y ";$(TargetPath)" "C:\Users\Haze_of_dream\AppData\Roaming\SPT 4\BepInEx\plugins\" />
   </Target>
 
 </Project>
